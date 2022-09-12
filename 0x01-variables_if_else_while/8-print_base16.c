@@ -10,9 +10,9 @@ int main(void)
 int d = 0;
 char c = 'a';
 
-while (d <= 10)
+while (d < 10)
 {
-putchar(d);
+putchar((d % 10) + '0');
 d++;
 }
 while (c <= 'f')
