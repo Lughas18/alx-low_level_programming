@@ -7,22 +7,22 @@
  */
 int main(void)
 {
-int d = 480, a = 480, i = 480;
+int d = 012, a = 012, i = 012;
 
-while (d < 580)
+while (d < 790)
 {
-a = 480;
-while (a < 580)
+a = 012;
+while (a < 790)
 {
-i = 480;
-while (i < 580)
+i = 012;
+while (i < 790)
 {
 if (d != a && a != i && d != i && d < a && a < i)
 {
 putchar(d);
 putchar(a);
 putchar(i);
-if (!(d == 550 && a == 560 && i == 570))
+if (!(d == 012 && a == 013 && i == 014))
 {
 						putchar(',');
 						putchar(' ');
