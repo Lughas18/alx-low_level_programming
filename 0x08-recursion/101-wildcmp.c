@@ -55,7 +55,6 @@ iterate_wild(wildstr);
  */
 
 char *postfix_match(char *str, char *postfix)
-
 {
 
 int str_len = strlen_no_wilds(str) - 1;
@@ -93,5 +92,4 @@ return (1);
 if (*s1 != *s2)
 return (0);
 return (wildcmp(++s1, ++s2));
-
-}
+}}
